@@ -1,0 +1,41 @@
+.requests{
+    width: 95vw;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 5px;
+    color:  black;
+    text-align: left;
+}
+.customer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(to bottom right,rgba(187, 169, 247, 0.5),rgba(247, 120, 62, 0.3));
+    border-radius: 8px;
+    border: 2px solid black;
+}
+.customer p {
+display: block;
+}
+#b57{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: wheat;
+    font-size: large;
+    border: none;
+}
+
+.col0,.col1,.col2,.col3{
+    height: 30vh;
+    text-align: center;
+    padding: 15px;
+    margin: 2px;
+    border-left: 1px solid black;
+}
+.col0 img{
+ width: 20vh;
+ height: 20vh;
+ border-radius: 50%;
+}

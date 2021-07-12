@@ -1,0 +1,37 @@
+.carousel{
+    min-height: 60vh;
+    min-width: 100vw;
+    padding: 10px;
+}
+.controller{
+    position: absolute;
+    top:55vh;
+    left: 5vh;
+    right: 5vh;
+    min-width: 60vw;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   z-index: 2;
+}
+#c1, #c2{
+    z-index: 3;
+}
+ #c1 :hover{color: black; }
+ #c2 :hover{color: black; }
+ #c12{
+     padding: 15px;
+     width:80%;
+     font-size: medium;
+     color: black;
+ }
+ .card{
+     position: relative;
+     z-index: 2;
+     background-color: aquamarine;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+ }
+ 
